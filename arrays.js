@@ -8,8 +8,9 @@ return [element, ...array]
 
 }
 
-addElementToBeginningOfArray([],"foo");
+
 
 function destructivelyAddElementToBeginningOfArray(array, element){
+
 
 }
