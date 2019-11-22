@@ -60,7 +60,7 @@ destructivelyRemoveElementFromEndOfArray(1, 2, 3)
 
 function removeElementFromEndOfArray(array){
 
-  return array.slice(0, removeElementFromEndOfArray -1)
+  return array.slice(2, removeElementFromEndOfArray -1)
 
 
 }
