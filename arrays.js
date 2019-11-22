@@ -42,3 +42,8 @@ array.slice(1)
 return array
 
 }
+
+function destructivelyRemoveElementFromEndOfArray(array, element){
+  array.pop(element)
+  return element
+}
