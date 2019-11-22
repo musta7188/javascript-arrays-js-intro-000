@@ -37,11 +37,11 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   return array
 }
 
-destructivelyRemoveElementFromEndOfArray([1, 2, 3])
+    destructivelyRemoveElementFromEndOfArray([1, 2, 3])
 
 function removeElementFromBeginningOfArray(array){
 
-array.slice(0)
+array.slice(1)
 
 return array
 }
