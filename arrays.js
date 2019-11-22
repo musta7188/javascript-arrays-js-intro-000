@@ -30,11 +30,14 @@ function accessElementInArray(array, index){
 }
 
 
-function destructivelyRemoveElementFromBeginningOfArray(array, element){
-  array.shift(element)
+function destructivelyRemoveElementFromBeginningOfArray(array){
+
+  array.shift()
 
   return array
 }
+
+destructivelyAddElementToBeginningOfArray([1, 2, 3])
 
 function removeElementFromBeginningOfArray(array,element){
 array.slice(1)
