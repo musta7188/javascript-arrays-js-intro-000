@@ -32,12 +32,12 @@ function accessElementInArray(array, index){
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
 
-  array.shift()
+  array.shift(0)
 
   return array
 }
 
-destructivelyAddElementToBeginningOfArray([1, 2, 3])
+destructivelyRemoveElementFromEndOfArray([1, 2, 3])
 
 function removeElementFromBeginningOfArray(array,element){
 array.slice(1)
