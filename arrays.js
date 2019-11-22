@@ -48,8 +48,8 @@ return array.slice(1)
 removeElementFromBeginningOfArray([1, 2, 3])
 
 function destructivelyRemoveElementFromEndOfArray(array){
-  array.pop()
-  return element
+  return array.pop()
+
 }
 
 destructivelyRemoveElementFromEndOfArray(1,2,3)
